@@ -27,17 +27,17 @@
  *   red,
  *   rgb24,
  *   rgb8,
- * } from "https://deno.land/std@$STD_VERSION/fmt/colors.ts";
+ * } from "@bearz/ansi/styles";
  *
  * console.log(bgBlue(italic(red(bold("Hello, World!")))));
  *
- * // also supports 8bit colors
+ * /// also supports 8bit colors
  *
  * console.log(rgb8("Hello, World!", 42));
  *
  * console.log(bgRgb8("Hello, World!", 42));
  *
- * // and 24bit rgb
+ * /// and 24bit rgb
  *
  * console.log(rgb24("Hello, World!", {
  *   r: 41,

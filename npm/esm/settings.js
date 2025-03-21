@@ -1,3 +1,8 @@
+/**
+ * The `settings` includes the ANSI settings for the terminal.
+ *
+ * @module
+ */
 import { Lazy } from "./_lazy.js";
 import { detectMode } from "./detector.js";
 import { AnsiModes } from "./enums.js";

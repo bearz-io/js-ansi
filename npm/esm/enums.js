@@ -203,7 +203,7 @@ export const AnsiLogLevels = {
         return 4;
     },
     /**
-     * G
+     * Gets the string representation of the log level.
      * @param value The numeric value of the log level.
      * @returns The string representation of the log level.
      */

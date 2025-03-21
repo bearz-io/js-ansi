@@ -1,3 +1,9 @@
+/**
+ * The `detector` module provides functions to detect the ANSI
+ * color mode of the terminal.
+ *
+ * @module
+ */
 import { DARWIN, globals, loadOsModule, WINDOWS } from "./globals.js";
 import { get, has } from "@bearz/env";
 import { AnsiModes } from "./enums.js";

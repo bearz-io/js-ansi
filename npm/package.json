@@ -1,7 +1,14 @@
 {
   "name": "@bearz/ansi",
-  "version": "0.0.3",
-  "description": "ansi module",
+  "version": "0.1.0",
+  "description": "The ansi module provides color detection, writing ansi, codes, and an ansi writer.",
+  "keywords": [
+    "ansi",
+    "terminal",
+    "color",
+    "format",
+    "color-detection"
+  ],
   "homepage": "bearz.io",
   "repository": {
     "type": "git",

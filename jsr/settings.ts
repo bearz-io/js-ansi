@@ -1,3 +1,8 @@
+/**
+ * The `settings` includes the ANSI settings for the terminal.
+ *
+ * @module
+ */
 import { Lazy } from "./_lazy.ts";
 import { detectMode } from "./detector.ts";
 import { type AnsiMode, AnsiModes } from "./enums.ts";

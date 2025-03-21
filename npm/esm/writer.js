@@ -1,3 +1,10 @@
+/**
+ * The `writer` module provides a simple and flexible way to write messages to the console with ANSI styles.
+ * It allows you to write messages with different log levels, such as `info`, `debug`, `warn`, and `error`,
+ * styled messages, log commands, and more.
+ *
+ * @module
+ */
 import { AnsiSettings } from "./settings.js";
 import {
     blue,
